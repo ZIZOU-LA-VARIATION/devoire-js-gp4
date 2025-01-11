@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercice 11</title>
+
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="style exo 11.css">
+    <link rel="stylesheet" href="parge d'accueil\parge d'accuiel.css">
+</head>
+
+<body>
+    <h1>Exercice 11</h1>
+    <div class="ct">
+
+        <form id="formulaire"  style="width: 100%; ">
+
+            <div class="row" style="margin-bottom: 10px;">
+                <div class="col-md-4"><label for="dimension">Dimension du tableau :</label></div>
+                <div class="col-md-4"><label for="limiteInf">Limite inférieure :</label></div>
+                <div class="col-md-4"><label for="limiteSup">Limite supérieure :</label></div>
+            </div>
+            
+            <div class="r">
+                <div class="ip"><input type="text" id="dimension" required placeholder="Entrez un entier"></div>
+                <div class="ip"><input type="text" id="limiteInf" required placeholder="Entrez un entier"></div>
+                <div class="ip"><input type="text" id="limiteSup" required placeholder="Entrez un entier"></div>
+            </div><br>
+
+            <div id="erreur"></div>
+
+            <p class="p">
+                <button id="soumettre" class="bt">Générer un tableau</button>
+            </p>
+
+        </form>
+        
+        <div id="tableau"></div>
+
+    </div>
+
+    <script src="script exo 11.js"></script>
+</body>
+
+
+</html>
